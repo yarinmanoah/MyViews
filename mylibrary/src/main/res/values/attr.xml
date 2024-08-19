@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LoadingButton">
+        <attr name="text" format="string" />
+        <attr name="button_background" format="color" />
+        <attr name="button_text_color" format="color" />
+        <attr name="button_stroke_color" format="color" />
+        <attr name="progress_color" format="color" />
+        <attr name="button_stroke_size" format="dimension" />
+        <attr name="radius_size" format="dimension" />
+        <attr name="button_text_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgress">
+        <attr name="background_color" format="reference" />
+        <attr name="current_step" format="integer" />
+        <attr name="max_steps" format="integer" />
+        <attr name="stroke_size" format="dimension" />
+        <attr name="stroke_color" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="InitialsIndicator">
+        <attr name="indicatorShape" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="square" value="1" />
+        </attr>
+        <attr name="indicator_background_color" format="color" />
+        <attr name="indicator_text_color" format="color" />
+        <attr name="indicator_text" format="string" />
+        <attr name="indicator_text_style" format="reference" />
+        <attr name="indicator_text_size" format="dimension" />
+
+    </declare-styleable>
+
+
+    <!--    </declare-styleable>-->
+</resources>

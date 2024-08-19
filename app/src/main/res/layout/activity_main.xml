@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading Button"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <com.example.mylibrary.loadingbutton.LoadingButton
+        android:id="@+id/loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:button_stroke_size="4dp"
+        app:button_stroke_color="@color/black"
+        app:button_text_size="16dp"
+        app:text="Click Here!"
+        app:radius_size="20dp"
+        app:button_text_color="@color/green"
+        app:progress_color="@color/red"
+        android:layout_gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginVertical="8dp"
+        android:background="@color/grey"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Circle Progress"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <com.example.mylibrary.circleprogress.CircleProgress
+        android:id="@+id/circle_progress"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        app:max_steps="4"
+        android:textColor="@color/white"
+        app:stroke_color="@color/black"
+        app:stroke_size="3dp"
+        android:text="3/4"
+        app:background_color="@color/grey"
+        app:current_step="3"/>
+
+    <Button
+        android:id="@+id/random"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click to random steps"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginVertical="8dp"
+        android:background="@color/grey"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Initials Indicator"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <com.example.mylibrary.initialsindicator.InitialsIndicator
+        android:id="@+id/indicator"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        app:indicatorShape="circle"
+        />
+
+    <com.example.mylibrary.initialsindicator.InitialsIndicator
+        android:id="@+id/indicator2"
+        android:layout_width="100dp"
+        android:layout_gravity="center"
+        android:layout_height="100dp"
+        app:indicatorShape="circle"
+        app:indicator_text="DA"
+        app:indicator_text_size="20dp"
+        app:indicator_text_style="@style/TextAppearance.Material3.BodyLarge"
+        app:indicator_text_color="@color/red"/>
+
+
+
+
+</LinearLayout>
