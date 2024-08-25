@@ -36,15 +36,6 @@
         android:background="@color/grey"/>
 
 
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Circle Progress"
-        android:layout_marginBottom="8dp"
-        android:textColor="@color/black"
-        android:textStyle="bold"/>
-
     <com.example.mylibrary.circleprogress.CircleProgress
         android:id="@+id/circle_progress"
         android:layout_width="60dp"
