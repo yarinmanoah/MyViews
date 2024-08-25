@@ -84,7 +84,7 @@
         android:layout_gravity="center"
         android:layout_height="100dp"
         app:indicatorShape="circle"
-        app:indicator_text="DA"
+        app:indicator_text="YA"
         app:indicator_text_size="20dp"
         app:indicator_text_style="@style/TextAppearance.Material3.BodyLarge"
         app:indicator_text_color="@color/red"/>
